@@ -1,4 +1,4 @@
-var Bot = require('discord-bot-Nickname');
+var Bot = require('discord-bot-Liz's bot');
  
 });
  
