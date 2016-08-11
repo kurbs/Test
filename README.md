@@ -1,8 +1,5 @@
 var Bot = require('discord-bot-Nickname');
  
-var bot = new Bot({
-    email: <email>,
-    password: <pass>
 });
  
 bot
