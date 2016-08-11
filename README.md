@@ -9,11 +9,9 @@ bot
     });
  
 bot.connect();
-{
-*name*: *discord-bot-Nickname*,
-*version*: *0.1.0*
-*description*: "",
-*main*: *bot.js*
-*scripts*: [
-*test*: *nodemon bot.js*
-},
+
+bot
+    .on(bot.triggers.react, /hey|hello/)
+    .do(function(Test) { /* <- this is the task */
+        console.log(args.message);
+    });
